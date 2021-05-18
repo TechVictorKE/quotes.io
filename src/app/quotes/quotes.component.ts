@@ -14,7 +14,7 @@ export class QuotesComponent implements OnInit {
     new Quote (3,'Mikey','Control','...a name is almost always a sort of cowardice---an attempt to confine a thing to being only what it is, rather than what it may be.','Jesse Ball',new Date(2021,4,16),0,0),
     new Quote (4,'Ess','Computers','The spread of computers and the Internet will put jobs in two categories. People who tell computers what to do, and people who are told by computers what to do.','Marc Andreesen',new Date(2021,4,25),0,0),
     new Quote (5,'Sam','Anger','Resentment and anger are bad for your blood pressure and your digestion.','Desmond Tutu',new Date(2021,4,28),0,0),
-  
+    new Quote (6,'Alfredo','Egoism','The only tyrant I accept in this world is the still voice within.','Mahatma Gandhi',new Date(2021,5,16),0,0)
   ];
   get sortQuotes() {
     return this.quotes.sort((a, b) => {
