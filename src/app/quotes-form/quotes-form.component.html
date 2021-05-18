@@ -28,7 +28,7 @@
         <textarea class="form-control" id="quote" rows="2" required [(ngModel)]="quoted.quote" name="quote" #quote='ngModel'></textarea>
         <div *ngIf="quote.invalid && quote.dirty" class="alert alert-danger">
           <div *ngIf="quote.errors.required">
-              Quote can not be empty.
+              Quote can not be empty!
           </div>
         </div>
       </div>
