@@ -7,7 +7,7 @@ import { Quote } from '../quote';
   styleUrls: ['./quotes.component.css']
 })
 export class QuotesComponent implements OnInit {
-  title = 'Daily Quotes';
+  title = 'Daily Quotes About Anything and Everything!';
   quotes:Quote[] = [
     new Quote (1,'Henry','Success','What you get by achieving your goals is not as important as what you become by achieving your goals.','Zig Zigler', new Date(2021,2,14),0,0),
     new Quote (2,'Nimmoh','Life','It is possible to name everything and to destroy the world.','Kathy Acker',new Date(2021,4,11),0,0),
