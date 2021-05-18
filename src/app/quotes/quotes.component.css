@@ -13,7 +13,7 @@ span{
   font-family: 'Caveat', cursive;
 }
 .overlay{
-  background-color:rgba(0, 225, 255, 0.301);
+  background-color:rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin-top:4%;
   margin-left: 4%;
